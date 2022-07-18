@@ -102,6 +102,13 @@ namespace hotel_managemant_system
             {
                 MetroFramework.MetroMessageBox.Show(this, "Please select Hotel", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else
+            {
+                this.Hide();
+                Add_Booking2 fbook2 = new Add_Booking2(txt_sh_hotel_name.Text, txt_sh_hotel_id.Text);
+                fbook2.ShowDialog();
+                this.Close();
+            }
         }
 
     }
