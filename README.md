@@ -1,1 +1,1 @@
-<h1 align= "center">Hotel Management System</h1>
+<h1 align= "center">Hotel Managemant System</h1>
