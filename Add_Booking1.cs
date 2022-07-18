@@ -92,6 +92,13 @@ namespace hotel_managemant_system
                 MetroMessageBox.Show(this, "Error!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+                private void btn_reset_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txt_sh_hotel_id.Text))
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Please select Hotel", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
     }
 
