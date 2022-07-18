@@ -98,6 +98,10 @@ namespace hotel_managemant_system
             {
                 MetroFramework.MetroMessageBox.Show(this, "Please select Hotel", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else if (string.IsNullOrEmpty(txt_sh_hotel_name.Text))
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Please select Hotel", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
     }
