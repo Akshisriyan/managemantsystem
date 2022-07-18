@@ -110,6 +110,13 @@ namespace hotel_managemant_system
                 this.Close();
             }
         }
+         private void btn_add_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home fbook2 = new Home();
+            fbook2.ShowDialog();
+            this.Close();
+        }
 
     }
 
