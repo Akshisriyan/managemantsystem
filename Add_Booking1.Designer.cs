@@ -45,6 +45,20 @@ namespace hotel_managemant_system
             this.btn_search_hotel_exit = new MetroFramework.Controls.MetroButton();
             this.metroPanel1.SuspendLayout();
             this.SuspendLayout();
+
+             // 
+            // btn_sh_search
+            // 
+            this.btn_sh_search.Highlight = true;
+            this.btn_sh_search.Location = new System.Drawing.Point(566, 113);
+            this.btn_sh_search.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_sh_search.Name = "btn_sh_search";
+            this.btn_sh_search.Size = new System.Drawing.Size(131, 34);
+            this.btn_sh_search.Style = MetroFramework.MetroColorStyle.Lime;
+            this.btn_sh_search.TabIndex = 12;
+            this.btn_sh_search.Text = "Search";
+            this.btn_sh_search.UseSelectable = true;
+            this.btn_sh_search.Click += new System.EventHandler(this.btn_sh_search_Click);
         }
 
 
