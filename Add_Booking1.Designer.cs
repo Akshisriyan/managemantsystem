@@ -59,6 +59,39 @@ namespace hotel_managemant_system
             this.btn_sh_search.Text = "Search";
             this.btn_sh_search.UseSelectable = true;
             this.btn_sh_search.Click += new System.EventHandler(this.btn_sh_search_Click);
+
+              // 
+            // txt_sh_hotel_id_name
+            // 
+            // 
+            // 
+            // 
+            this.txt_sh_hotel_id_name.CustomButton.Image = null;
+            this.txt_sh_hotel_id_name.CustomButton.Location = new System.Drawing.Point(197, 2);
+            this.txt_sh_hotel_id_name.CustomButton.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_sh_hotel_id_name.CustomButton.Name = "";
+            this.txt_sh_hotel_id_name.CustomButton.Size = new System.Drawing.Size(29, 29);
+            this.txt_sh_hotel_id_name.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txt_sh_hotel_id_name.CustomButton.TabIndex = 1;
+            this.txt_sh_hotel_id_name.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txt_sh_hotel_id_name.CustomButton.UseSelectable = true;
+            this.txt_sh_hotel_id_name.CustomButton.Visible = false;
+            this.txt_sh_hotel_id_name.Lines = new string[0];
+            this.txt_sh_hotel_id_name.Location = new System.Drawing.Point(290, 113);
+            this.txt_sh_hotel_id_name.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_sh_hotel_id_name.MaxLength = 32767;
+            this.txt_sh_hotel_id_name.Name = "txt_sh_hotel_id_name";
+            this.txt_sh_hotel_id_name.PasswordChar = '\0';
+            this.txt_sh_hotel_id_name.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_sh_hotel_id_name.SelectedText = "";
+            this.txt_sh_hotel_id_name.SelectionLength = 0;
+            this.txt_sh_hotel_id_name.SelectionStart = 0;
+            this.txt_sh_hotel_id_name.ShortcutsEnabled = true;
+            this.txt_sh_hotel_id_name.Size = new System.Drawing.Size(229, 34);
+            this.txt_sh_hotel_id_name.TabIndex = 10;
+            this.txt_sh_hotel_id_name.UseSelectable = true;
+            this.txt_sh_hotel_id_name.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txt_sh_hotel_id_name.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
         }
 
 
