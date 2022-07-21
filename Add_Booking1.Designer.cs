@@ -19,6 +19,33 @@ namespace hotel_managemant_system
             }
             base.Dispose(disposing);
         }
+         #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btn_sh_search = new MetroFramework.Controls.MetroButton();
+            this.txt_sh_hotel_id_name = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.txt_sh_hotel_id = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.txt_sh_about = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.txt_sh_address = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.txt_sh_city = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.txt_sh_hotel_name = new MetroFramework.Controls.MetroTextBox();
+            this.lable_ah1_hotel_name = new MetroFramework.Controls.MetroLabel();
+            this.btn_reset = new MetroFramework.Controls.MetroButton();
+            this.btn_search_hotel_exit = new MetroFramework.Controls.MetroButton();
+            this.metroPanel1.SuspendLayout();
+            this.SuspendLayout();
+        }
 
 
 
