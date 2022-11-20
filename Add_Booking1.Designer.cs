@@ -122,6 +122,14 @@ namespace hotel_managemant_system
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 12;
+             this.metroPanel1.Location = new System.Drawing.Point(83, 174);
+            this.metroPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.metroPanel1.Name = "metroPanel1";
+            this.metroPanel1.Size = new System.Drawing.Size(856, 279);
+            this.metroPanel1.TabIndex = 13;
+            this.metroPanel1.VerticalScrollbarBarColor = true;
+            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.VerticalScrollbarSize = 13;
         }
 
 
