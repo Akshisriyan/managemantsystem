@@ -116,6 +116,12 @@ namespace hotel_managemant_system
             this.metroPanel1.Controls.Add(this.txt_sh_address);
             this.metroPanel1.Controls.Add(this.metroLabel4);
             this.metroPanel1.Controls.Add(this.txt_sh_city);
+                        this.metroPanel1.Controls.Add(this.metroLabel5);
+            this.metroPanel1.Controls.Add(this.txt_sh_hotel_name);
+            this.metroPanel1.Controls.Add(this.lable_ah1_hotel_name);
+            this.metroPanel1.HorizontalScrollbarBarColor = true;
+            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.HorizontalScrollbarSize = 12;
         }
 
 
