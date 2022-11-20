@@ -92,6 +92,22 @@ namespace hotel_managemant_system
             this.txt_sh_hotel_id_name.UseSelectable = true;
             this.txt_sh_hotel_id_name.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txt_sh_hotel_id_name.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+
+
+                        // 
+            // metroLabel6
+            // 
+            this.metroLabel6.AutoSize = true;
+            this.metroLabel6.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel6.Location = new System.Drawing.Point(105, 113);
+            this.metroLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.metroLabel6.Name = "metroLabel6";
+            this.metroLabel6.Size = new System.Drawing.Size(133, 25);
+            this.metroLabel6.TabIndex = 11;
+            this.metroLabel6.Text = "Hotel ID/Name";
+            // 
+            // metroPanel1
+            // 
         }
 
 
