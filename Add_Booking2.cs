@@ -158,3 +158,27 @@ namespace hotel_managemant_system
                 MetroMessageBox.Show(this, "Error!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+     private void btn_ab_clear_Click(object sender, EventArgs e)
+        {
+            txt_ab_customer_name.Clear();
+            txt_ab_address.Clear();
+            txt_ab_telephone.Clear();
+            txt_ab_nic.Clear();
+            datetime_ab_birth_date.ResetText();
+            cmb_ab_gender.SelectedIndex = -1;
+            cmb_ab_room_type.SelectedIndex = -1;
+            txt_ab_number_of_room.Clear();
+            datetime_ab_check_in_date.ResetText();
+            datetime_ab_check_in_time.ResetText();
+            getBookingID();
+        }
+
+        private void btn_ab_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Add_Booking1 fbook2 = new Add_Booking1();
+            fbook2.ShowDialog();
+            this.Close();
+        }
+    }
+}
