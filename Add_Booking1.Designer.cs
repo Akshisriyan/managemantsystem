@@ -214,6 +214,18 @@ namespace hotel_managemant_system
             this.txt_sh_about.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txt_sh_about.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+             // metroLabel1
+            // 
+            this.metroLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.Location = new System.Drawing.Point(32, 212);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(62, 25);
+            this.metroLabel1.TabIndex = 44;
+            this.metroLabel1.Text = "About";
+            // 
         }
 
 
