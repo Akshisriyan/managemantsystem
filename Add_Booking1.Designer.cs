@@ -179,6 +179,41 @@ namespace hotel_managemant_system
             this.metroLabel2.TabIndex = 46;
             this.metroLabel2.Text = "Hotel ID";
             // 
+             // txt_sh_about
+            // 
+            this.txt_sh_about.Anchor = System.Windows.Forms.AnchorStyles.None;
+            // 
+            // 
+            // 
+            this.txt_sh_about.CustomButton.Image = null;
+            this.txt_sh_about.CustomButton.Location = new System.Drawing.Point(569, 2);
+            this.txt_sh_about.CustomButton.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_sh_about.CustomButton.Name = "";
+            this.txt_sh_about.CustomButton.Size = new System.Drawing.Size(29, 29);
+            this.txt_sh_about.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txt_sh_about.CustomButton.TabIndex = 1;
+            this.txt_sh_about.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txt_sh_about.CustomButton.UseSelectable = true;
+            this.txt_sh_about.CustomButton.Visible = false;
+            this.txt_sh_about.Enabled = false;
+            this.txt_sh_about.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.txt_sh_about.Lines = new string[0];
+            this.txt_sh_about.Location = new System.Drawing.Point(206, 203);
+            this.txt_sh_about.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_sh_about.MaxLength = 32767;
+            this.txt_sh_about.Name = "txt_sh_about";
+            this.txt_sh_about.PasswordChar = '\0';
+            this.txt_sh_about.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_sh_about.SelectedText = "";
+            this.txt_sh_about.SelectionLength = 0;
+            this.txt_sh_about.SelectionStart = 0;
+            this.txt_sh_about.ShortcutsEnabled = true;
+            this.txt_sh_about.Size = new System.Drawing.Size(601, 34);
+            this.txt_sh_about.TabIndex = 45;
+            this.txt_sh_about.UseSelectable = true;
+            this.txt_sh_about.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txt_sh_about.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
         }
 
 
