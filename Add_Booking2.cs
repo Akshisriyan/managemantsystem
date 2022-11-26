@@ -71,3 +71,8 @@ namespace hotel_managemant_system
                 MetroMessageBox.Show(this, "Error on load ID!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void Add_Booking_Load(object sender, EventArgs e)
+        {
+
+        }
